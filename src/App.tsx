@@ -5,6 +5,9 @@ import ConditionalRendering from "./components/ConditionalRendering";
 import ObjectState1 from "./components/ObjectState1";
 import ObjectState2 from "./components/ObjectState2";
 import BlogPost from "./components/BlogPost";
+import Counter from "./components/Counter";
+import FetchingInUseEffect from "./components/FetchingInUseEffect";
+import SwrFetchRender from "./components/Swr";
 
 function App() {
   return (
@@ -33,6 +36,21 @@ function App() {
       <div>
         <h1> 4. Article de blog </h1>
         <BlogPost />
+      </div>
+
+      <div>
+        <h1> 5. Compteur </h1>
+        <Counter />
+      </div>
+
+      <div>
+        <h1> 6. La collecte dans UseEffect (Fetching in UseEffect) </h1>
+        <FetchingInUseEffect />
+      </div>
+
+      <div>
+        <h1> 7. SWR : Bibliothèque de React Hooks pour la récupération de données </h1>
+        <SwrFetchRender />
       </div>
     </>
   );
