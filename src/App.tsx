@@ -1,6 +1,4 @@
-import { useState } from "react";
 import "./App.css";
-import Number12 from "./components/number12";
 import ConditionalRendering from "./components/ConditionalRendering";
 import ObjectState1 from "./components/ObjectState1";
 import ObjectState2 from "./components/ObjectState2";
@@ -8,13 +6,14 @@ import BlogPost from "./components/BlogPost";
 import Counter from "./components/Counter";
 import FetchingInUseEffect from "./components/FetchingInUseEffect";
 import SwrFetchRender from "./components/Swr";
+import Number12 from "./components/Number12";
 
 function App() {
   return (
     <>
       <div>
         <h1>1. Incrémenter </h1>
-        <Number12 />
+        <Number12/>
       </div>
       <div>
         <h1> 2. Rendu conditionnel (Conditional rendering) </h1>
